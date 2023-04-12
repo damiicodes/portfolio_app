@@ -1,0 +1,15 @@
+Hello there! My name is Dami Fajinmi, and I'm a Junior Data Engineer.
+I completed a coding bootcamp called 'Sky Get into Tech' and then taught myself
+Python and SQL to become a Data Engineer. Prior to this, I was working as a Data Analyst.
+As a self-taught developer, I have a passion for learning new programming skills
+and exploring different technologies.
+
+Fun fact: I share my workspace with two adorable dogs who are always eager to lend a paw.
+They're my faithful companions and never fail to make me smile,
+even during the most complex coding challenges.
+When I'm not busy building data pipelines,
+I enjoy taking my dogs on outdoor adventures and exploring new trails. Or you can find me curled up
+reading a novel, or catching up on the latest movies.
+
+Thank you for visiting my programming portfolio, and feel free to reach out
+if you have any questions or just want to chat about dogs (or programming!).
