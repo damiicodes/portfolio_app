@@ -20,7 +20,7 @@ h1 {
 
 col1, col2 = st.columns([1, 3])
 col3 = st.container()
-col4, col5 = st.columns(2)
+col4, empty_col, col5 = st.columns([1.5, 0.5, 1.5])
 
 with col1:
     st.image('images/Dami_image.png', width=400, use_column_width='auto', output_format='auto')
@@ -42,7 +42,14 @@ df = pandas.read_csv('data.csv', sep=';')
 with col4:
     for index, row in df[:10].iterrows():
         st.header(row['title'])
+        st.write(row['description'])
+        st.image('images/' + row['image'])
+        st.write(f'[Source Code]({row["url"]})')
+
 
 with col5:
     for index, row in df[10:].iterrows():
         st.header(row['title'])
+        st.write(row['description'])
+        st.image('images/' + row['image'])
+        st.write(f'[Source Code]({row["url"]})')
